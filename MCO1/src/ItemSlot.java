@@ -13,7 +13,7 @@ public class ItemSlot {
             this.item = item;
         }
 
-        if (quantity >= 0 && quantity <= capacity) {
+        if (quantity > 0) {
             this.quantity = quantity;
         }
 
@@ -33,8 +33,7 @@ public class ItemSlot {
             }
 
             else {
-                quantity = capacity;
-                System.out.println("Too many items added. Max capacity reached");
+                System.out.println("Not enough items to have a slot");
             }
         }
     }
