@@ -7,7 +7,6 @@ public class Item {
         this.name = name;
         this.price = price;
         this.calories = calories;
-        this.nigga = nigga;
     }
 
     public String getName () {
